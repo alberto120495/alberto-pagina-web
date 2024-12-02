@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    color:white;
+}
+
+.logo{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.titulos{
+    display: flex;
+}
+
+.copa{
+    width: 50px;
+    border-radius: 30%;
+    margin-left: 50px;
+}
